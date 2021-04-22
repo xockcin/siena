@@ -12,3 +12,5 @@ I would like take a first stab at building this app. So what am I building? My F
 It occurs to me that the content I want to have in my app is all in the weekly email. I good start would simply be to take that content and put it into the app.
 
 So what do I need? Not much! Really just three screens: splash, item list and item view. The splash will just be a graphic; the item list and item view screens will be scrollviews.
+
+Update: I have the basic layout. My struggle is to get the images to show up in the items. For some reason it's not working. I will stop for now and keep working on it later.
