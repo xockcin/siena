@@ -2,7 +2,7 @@ export const items = [
   {
     id: 0,
     name: "Apples",
-    image: "./apples.jpg",
+    image: require("../components/apples.jpg"),
     source: {
       name: "Bolton Orchards",
       location: "Bolton, MA",
@@ -19,7 +19,7 @@ export const items = [
   {
     id: 1,
     name: "Bread",
-    image: "./bread.png",
+    image: require("../components/bread.png"),
     source: {
       name: "Iggy's Bread",
       location: "Cambridge, MA",
@@ -33,7 +33,7 @@ export const items = [
   {
     id: 2,
     name: "Chives",
-    image: "./chives.jpg",
+    image: require("../components/chives.jpg"),
     source: {
       name: "Siena Farm",
       location: "Sudbury, MA",
@@ -46,7 +46,7 @@ export const items = [
   {
     id: 3,
     name: "Sorrel",
-    image: "./sorrel.jpg",
+    image: require("../components/sorrel.jpg"),
     source: {
       name: "Siena Farm",
       location: "Sudbury, MA",
@@ -59,7 +59,7 @@ export const items = [
   {
     id: 4,
     name: "Green Garlic",
-    image: "./green-garlic.jpg",
+    image: require("../components/green-garlic.jpg"),
     source: {
       name: "Siena Farm",
       location: "Sudbury, MA",
@@ -76,7 +76,7 @@ export const items = [
   {
     id: 5,
     name: "Onion",
-    image: "./onion.jpg",
+    image: require("../components/onion.jpg"),
     source: {
       name: "Juniper Hill Farm",
       location: "Wadhams, NY",
@@ -88,7 +88,7 @@ export const items = [
   {
     id: 6,
     name: "Coffee",
-    image: "./karma-coffee.jpg",
+    image: require("../components/karma-coffee.jpg"),
     source: {
       name: "Carma Coffee",
       location: "Sudbury, MA",
@@ -100,7 +100,7 @@ export const items = [
   {
     id: 7,
     name: "Potatoes",
-    image: "./gold-potatoes.jpg",
+    image: require("../components/gold-potatoes.jpg"),
     source: {
       name: "Sparrow Arc Farm",
       location: "Guildhall, VT",
