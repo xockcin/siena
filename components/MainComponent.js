@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import ItemList from './ItemListComponent'
 import {View, Text, StyleSheet, Image} from 'react-native'
 import {Divider} from 'react-native-elements'
-import Test from './TestComponent'
+import List from './ListComponent'
 
 
 class MainComponent extends Component {
@@ -22,7 +21,7 @@ class MainComponent extends Component {
             <Divider style={{backgroundColor: "white", height: 2}} />
           </View>
         </View>
-        <Test />
+        <List />
       </View>
     );
   }

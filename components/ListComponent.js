@@ -13,16 +13,15 @@ import {
 import {items} from '../shared/items'
 
 const Item = ({ name, img }) => {
-  let icon = img
   return (
     <View style={styles.item}>
-      <Image style={styles.img} source={icon} />
+      <Image style={styles.img} source={img} />
       <Text style={styles.name}>{name}</Text>
     </View>
   );
 };
 
-const Test = () => {
+const List = () => {
   const renderItem = ({ item }) => <Item name={item.name} img={item.image} />;
   console.log(require("./apples.jpg"))
   console.log(typeof(items[0].image));
@@ -49,10 +48,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF"
   },
   item: {
-    backgroundColor: "#e5e5e5",
+    backgroundColor: "#e1e1e1",
     padding: 10,
-    marginVertical: 8,
-    marginHorizontal: 16,
+    marginVertical: 10,
+    marginHorizontal: 10,
     flexDirection: "row",
     alignItems: "center"
   },
@@ -67,4 +66,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Test;
+export default List;
