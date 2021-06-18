@@ -32,3 +32,9 @@ It is time to return to this project. I pitched it very informally to Rachel at 
 My plan is to start by building it in Snack. That way it will be easy to share. The first iteration will be an app that contains, essentially, just the information in the email newsletter and nothing more. There will be a scrollable list of items, each with a thumbnail image. If you hit the item, it will expand into a view containing the name of the item, a larger picture of the item, the source of the item (name and location), a description of the item, and a few buttons that open links to recipes in an external browser. Ultimately we will want to make a recipe view for the app itself, but not yet.
 
 I basically have this built already. It's not working right now because apparently there is some sort of dependency conflict with the version of react-navigation that I'm using, but that should be easy enough to fix. All I need to do is show what the experience will be like for the user.
+
+TODO:
+- MainComponent and ItemComponent are almost the same - consolidate them into one.
+- Make sure the navigation actually works.
+- Turn the recipe divs into links.
+- Add a splash screen.
