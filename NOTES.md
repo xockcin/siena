@@ -22,3 +22,13 @@ This was a great start! I can do more tomorrow or next week.
 # 4/23/21
 
 Now I will spend some time just making it look nicer. That is what matters most. This app is not going to do very much. The point is just for it to look nice.
+
+Actually, it looks pretty nice already. It's not so hard to make things look nice. What I really need is to implement the routing logic, so that you can hit the buttons to get to the item screens for each of the items. And that I'm not so sure how to do. I will need to look at the NuCamp website, probably, and also spend some time researching different React Native Navigation libraries.
+
+# 6/18/21
+
+It is time to return to this project. I pitched it very informally to Rachel at Siena Farms yesterday, and she thought it sounded like a great idea. So the next step is to build out a minimal prototype.
+
+My plan is to start by building it in Snack. That way it will be easy to share. The first iteration will be an app that contains, essentially, just the information in the email newsletter and nothing more. There will be a scrollable list of items, each with a thumbnail image. If you hit the item, it will expand into a view containing the name of the item, a larger picture of the item, the source of the item (name and location), a description of the item, and a few buttons that open links to recipes in an external browser. Ultimately we will want to make a recipe view for the app itself, but not yet.
+
+I basically have this built already. It's not working right now because apparently there is some sort of dependency conflict with the version of react-navigation that I'm using, but that should be easy enough to fix. All I need to do is show what the experience will be like for the user.
