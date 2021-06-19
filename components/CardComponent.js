@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {View, Image, Text, StyleSheet, SafeAreaView, ScrollView} from 'react-native'
 
-const Recipes = ({recipes}) => {
+const Recipes = (props) => {
+  const recipes = props.recipes
+  console.log(recipes)
   const recipeList = recipes.map(recipe => {
-    <View style={{ backgroundColor: "#F8981C", borderWidth: 2, borderColor: "#FFFFFF" }}>
+    return (<View style={{ backgroundColor: "#F8981C", borderWidth: 2, borderColor: "#FFFFFF" }}>
       <Text>{recipe}</Text>
-    </View>;
+    </View>)
   })
   return (
     <View>
