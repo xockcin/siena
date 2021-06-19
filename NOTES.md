@@ -38,3 +38,15 @@ TODO:
 - Make sure the navigation actually works.
 - Turn the recipe divs into links.
 - Add a splash screen.
+
+# 6/19/21
+
+The best way to do this project will probably be to work on it here in VS Code, and then upload it to Snack once I'm satisfied with it. The first challenge will be to implement navigation. In order to do that, I will need to read the React Navigation documentation, which will take a little while. I also need to generally clean up the code and the file structure. So here is my current todo:
+- Read React Navigation docs.
+- Turn all class components into functions.
+- Make card component look nicer.
+- Add links to recipes.
+- Implement React Navigation, so that list items navigate to item cards.
+- Add back button to item card.
+- Make the green frame its own component.
+- Add splash screen and main menu.
