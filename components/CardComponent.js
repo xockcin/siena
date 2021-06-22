@@ -5,8 +5,8 @@ const Recipes = (props) => {
   const recipes = props.recipes
   console.log(recipes)
   const recipeList = recipes.map(recipe => {
-    return (<View style={{ backgroundColor: "#F8981C", borderWidth: 2, borderColor: "#FFFFFF" }}>
-      <Text>{recipe}</Text>
+    return (<View style={styles.recipe}>
+      <Text style={styles.recipeText}>{recipe}</Text>
     </View>)
   })
   return (
@@ -39,22 +39,33 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     marginRight: 20,
     backgroundColor: "#FFFFFF",
-    padding: 10
+    padding: 10,
   },
   background: {
     backgroundColor: "#e5e5e5",
     padding: 20,
-    justifyContent: "center"
+    justifyContent: "center",
   },
   image: {
     height: 150,
-    width: 250
+    width: 250,
   },
   text: {
     fontSize: 18,
     textAlign: "center",
-    marginTop: 10
-  }
+    marginTop: 10,
+  },
+  recipe: {
+    backgroundColor: "#F8981C",
+    borderWidth: 2,
+    borderColor: "#FFFFFF",
+    margin: 3,
+    padding: 10,
+  },
+  recipeText: {
+    color: "#FFFFFF",
+    textAlign: "center",
+  },
 });
 
 export default Card;

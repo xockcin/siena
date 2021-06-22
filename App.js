@@ -8,6 +8,8 @@ import Item from './components/ItemComponent'
 
 export default function App() {
   return (
-    <Item />
+    <NavigationContainer>
+      <Item />
+    </NavigationContainer>
   );
 }
