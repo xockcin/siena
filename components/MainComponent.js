@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native'
 import {Divider} from 'react-native-elements'
-import List from './ListComponent'
+import List from './BoxListComponent'
+import Frame from './FrameComponent'
+import Card from './CardComponent'
 
 
 class MainComponent extends Component {
@@ -13,16 +15,9 @@ class MainComponent extends Component {
   }
   render() {
     return (
-      <View style={styles.background}>
-        <View style={styles.titleBox}>
-          <Image style={styles.logo} source={require('./siena-logo.jpg')} />
-          <View>
-            <Text style={styles.title}>IN THE BOX</Text>
-            <Divider style={{backgroundColor: "white", height: 2}} />
-          </View>
-        </View>
-        <List />
-      </View>
+      <Frame title="In The Box">
+        <Card />
+      </Frame>
     );
   }
 }

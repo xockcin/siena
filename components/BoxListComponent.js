@@ -21,7 +21,7 @@ const Item = ({ name, img }) => {
   );
 };
 
-const List = () => {
+const BoxList = () => {
   const renderItem = ({ item }) => <Item name={item.name} img={item.image} />;
   console.log(require("./apples.jpg"))
   console.log(typeof(items[0].image));
@@ -66,4 +66,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default List;
+export default BoxList;

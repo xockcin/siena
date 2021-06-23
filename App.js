@@ -9,7 +9,7 @@ import Item from './components/ItemComponent'
 export default function App() {
   return (
     <NavigationContainer>
-      <Item />
+      <Main />
     </NavigationContainer>
   );
 }

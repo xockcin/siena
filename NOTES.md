@@ -50,3 +50,21 @@ The best way to do this project will probably be to work on it here in VS Code, 
 - Add back button to item card.
 - Make the green frame its own component.
 - Add splash screen and main menu.
+
+# 6/22/21
+
+I'm trying to make "frame" a separate component. I want the frame to look the same on every screen except the splash screen. When you first open the splash screen, the large logo displays for two seconds in a white frame with no title. Then it turns into the main menu. Menus should have either four or five options. Three isn't enough and six is too many. This one will have four:
+- On The Farm
+- In The Box
+- Get In Touch
+- Manage Account
+
+At first, only the In The Box button will do anything.
+
+But for right now, I'm working on the Frame component. Let's think about it. What is a Frame component? A Frame component is a component that encloses another component. I think it would be most intuitive for me to implement it as a nesting (i.e. not self-enclosing) component, and then nest the content inside it, like so: 
+
+<Frame>
+  <List />
+</Frame>
+
+I realize I'm actually not quite sure how to make a nesting component like that. Better read up.
